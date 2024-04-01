@@ -1,0 +1,1743 @@
+@import url("./fonts.css");
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+p,
+h1 {
+    font-family: 'Neutral';
+}
+
+* {
+    font-family: 'Neutral';
+}
+
+
+p {
+    font-family: 'Manrope-med';
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+header .container .leftsite {
+    display: flex;
+    font-size: 14px;
+    width: 33%;
+    gap: 7px;
+}
+
+header .container .leftsite i {
+    font-size: 16px;
+}
+
+header .container .leftsite p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .container .center {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+header .container .rightsite {
+    width: 33%;
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+header .container .rightsite i {
+    font-size: 16px;
+}
+
+header .container .leftsite .fa-solid {
+    display: flex;
+    align-items: center;
+}
+
+.section-navigation {
+    width: 100%;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.section-navigation .container {
+    width: 80%;
+    display: flex;
+    gap: 25px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.section-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.section-title .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-title .container .top {
+    width: 100%;
+    display: flex;
+}
+
+.section-title .container .top .first {
+    width: 100%;
+    font-size: 175px;
+    letter-spacing: 10px;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+.section-title .container .top .second {
+    font-size: 16px;
+    margin: 0;
+    height: 89%;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    width: 25%;
+}
+
+.section-title .container .bottom .first {
+    width: 1150px;
+    height: 520px;
+}
+
+.section-title .container .bottom .second {
+    width: 300px;
+    height: 520px;
+}
+
+.section-title .container .bottom {
+    display: flex;
+    gap: 30px;
+
+}
+
+.section-mono {
+    display: flex;
+    justify-content: center;
+}
+
+.section-mono .container {
+    width: 80%;
+}
+
+.section-mono .container h1 {
+    font-size: 94.5px;
+}
+
+.section-fotochkiall {
+    display: flex;
+    justify-content: center;
+}
+
+.section-fotochkiall .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-fotochkiall .container .card .foto img {
+    width: 440px;
+    height: 470px;
+}
+
+.section-background {
+    background-image: url(../img/6.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-background .container {
+    width: 80%;
+    text-align: center;
+    height: 750px;
+}
+
+.section-background .container .text {
+    height: 280px;
+}
+
+.section-background .container .text h1 {
+    font-size: 90px;
+    color: white;
+}
+
+.section-background .container .text p {
+    font-size: 25px;
+    color: white;
+    line-height: 8px;
+    font-weight: 300;
+}
+
+.section-background .container button {
+    width: 270px;
+    height: 70px;
+    transition: 7s;
+}
+
+.sectiont-novinki .container h1 {
+    font-size: 92px;
+    line-height: 0px;
+}
+
+.sectiont-novinki {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+
+}
+
+.sectiont-novinki .container {
+    width: 80%;
+    height: 100px;
+
+}
+
+.sectiont-novinki .container h2 {
+    line-height: 10px;
+}
+
+.sectiont-novinki .container .two {
+    justify-content: end;
+}
+
+.sectiont-novinki .container .text {
+    display: flex;
+    justify-content: end;
+}
+
+.secttion-women {
+    display: flex;
+    justify-content: center;
+}
+
+.secttion-women .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secttion-women .container .card .foto img {
+    width: 420px;
+    height: 620px;
+}
+
+.secttion-women .container .card2 .foto1 img {
+    width: 500px;
+    height: 283px;
+}
+
+.section-green {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+}
+
+.section-green .container {
+    width: 80%;
+    gap: 150px;
+    display: flex;
+}
+
+.section-green .container img {
+    height: 835px;
+    width: 660px;
+}
+
+.section-green .container .right .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.section-green .container .right .top .rightsite {
+    display: flex;
+    align-items: center;
+}
+
+.section-green .container .right .top .nadpis {
+    font-size: 75px;
+    margin: 0;
+    margin-top: -27px;
+}
+
+.section-green .container .right .costume {
+    font-size: 30px;
+    width: 90%;
+}
+
+.section-green .container .right .center .size {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.section-green .container .right .center .promo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-green .container .right .center .promo p {
+    font-size: 50px;
+}
+
+.section-green .container .right .center .promo input {
+    height: 70px;
+    border: 2px solid lightgrey;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.section-green .container .right .center button {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-bottom: 40px;
+
+}
+
+.section-green .container .right .center button:hover {
+    transition: 0.5s;
+    background-color: rgb(122, 122, 122);
+
+}
+
+.section-green .container .right .niz .up {
+    border-bottom: 2px solid black;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-green .container .right .niz .down {
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    height: 70px;
+    font-weight: 600;
+    border: 2px solid lightgrey;
+    color: black;
+}
+
+.section-zametki {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background-color: black;
+    align-items: center;
+}
+
+.section-zametki .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-zametki .container .card {
+    width: 220px;
+
+}
+
+.section-zametki .container .card i {
+    font-size: 25px;
+    color: white;
+}
+
+.section-zametki .container .card p {
+    color: white;
+    font-size: 17px;
+}
+
+.section-zametki .container .card h1 {
+    color: white;
+    font-size: 22px;
+}
+
+.section-onas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.section-onas .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-onas .container .text {
+    width: 650px;
+}
+
+.section-onas .container img {
+    width: 550px;
+}
+
+.section-onas .container .text h1 {
+    font-size: 90px;
+}
+
+.section-onas .container .text p {
+    font-size: 20px;
+    font-family: 'Manrope-med';
+}
+
+.section-subscription {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 1500px;
+    background-color: black;
+    border-bottom: 2px solid white;
+    align-items: center;
+}
+
+.section-subscription .container {
+    width: 80%;
+}
+
+.section-subscription .container .verx h1 {
+    margin: 0;
+    font-size: 90px;
+    font-weight: 500;
+    color: white;
+}
+
+.section-subscription .container p {
+    color: white;
+}
+
+.section-subscription .container .verx .right {
+    display: flex;
+    justify-content: end;
+}
+
+.section-subscription .container .niz {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-subscription .container .niz .leftsite {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.section-subscription .container .niz .leftsite p {
+    width: 90%;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.section-subscription .container .niz .leftsite img {
+
+    height: auto;
+}
+
+.section-subscription .container .niz .rightsite {
+    width: 45%;
+}
+
+.section-subscription .container .niz .right .up h4 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Manrope-med';
+    font-weight: 400;
+}
+
+.section-subscription .container .niz .rightsite .center {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.section-subscription .container .niz .rightsite .up h4 {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: 'Manrope-med';
+    font-weight: 400;
+    color: white;
+}
+
+.section-subscription .container .niz .rightsite .center .one {
+    display: flex;
+    gap: 5px;
+}
+
+.section-subscription .container .niz .rightsite .center .two {
+    display: flex;
+    gap: 5px;
+}
+
+.section-subscription .container .niz .rightsite .center .three {
+    display: flex;
+    gap: 5px;
+}
+
+.section-subscription .container .niz .rightsite .down {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.section-subscription .container .niz .rightsite .up input {
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 0 20px;
+}
+
+.section-subscription .container .niz .rightsite .knopka {
+    height: 80px;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-subscription .container .niz .rightsite .knopka p {
+    font-size: 25px;
+    color: black;
+}
+
+.section-subscription .container .niz .rightsite .knopka:hover {
+    background-color: rgb(184, 184, 184);
+    transition: 0.7s;
+}
+
+.section-end {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 200px;
+}
+
+.section-end .container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-end .container p {
+    color: white;
+}
+
+.section-end .container i {
+    outline: 2px solid white;
+    outline-offset: 12px;
+    color: white;
+}
+
+.section-end .container .icon {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-title .container {
+        width: 70%;
+    }
+
+    .section-title .container .top .first {
+        font-size: 90px;
+        width: 100%;
+        letter-spacing: 10px;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 600px;
+        height: 320px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 180px;
+        height: 320px;
+    }
+
+    .section-title .container .top .second {
+        font-size: 10px;
+        margin: 0;
+        height: 89%;
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        width: 25%;
+    }
+
+    .section-title .container .top {
+        width: 100%;
+        display: flex;
+    }
+
+    .section-mono .container h1 {
+        font-size: 60px;
+    }
+
+    .section-fotochkiall .container {}
+
+    .section-fotochkiall .container .card .foto img {
+        width: 250px;
+        height: 280px;
+    }
+
+    .section-background {
+        background-image: url(../img/6.jpg);
+        height: 700px;
+    }
+
+    .section-background .container .text h1 {
+        font-size: 70px;
+        color: white;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 62px;
+        line-height: 0px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 250px;
+        height: 400px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 380px;
+        height: 170px;
+    }
+
+    .secttion-women .container {
+        width: 80%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .secttion-women {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+    }
+
+    .section-green .container img {
+        height: 635px;
+        width: 460px;
+    }
+
+    .section-green .container .right .top .nadpis {
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .section-green .container .right .costume {
+        font-size: 13px;
+        width: 90%;
+    }
+
+    select {
+        width: 100%;
+        height: 50px;
+        font-weight: 600;
+        border: 2px solid lightgrey;
+        color: black;
+        font-size: 12px;
+    }
+
+    .section-green .container .right .center .promo p {
+        font-size: 16px;
+    }
+
+    .section-green .container {
+        width: 80%;
+        gap: 100px;
+        display: flex;
+    }
+
+    .section-green .container .right {
+        width: 100%;
+    }
+
+    .section-green .container .right .center .promo input {
+        height: 40px;
+        border: 2px solid lightgrey;
+        width: 60%;
+        padding: 0 20px;
+        font-size: 12px;
+    }
+
+    .section-green .container .right .center button {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 18px;
+        transition: 0.5s;
+        margin-bottom: 40px;
+    }
+
+    .section-green .container .right .niz .up {
+        font-size: 12px;
+    }
+
+    .section-green .container .right .niz .down {
+        font-size: 15px;
+    }
+
+    .section-green .container .right .center button {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        color: white;
+        font-size: 14px;
+        transition: 0.5s;
+        margin-bottom: 40px;
+    }
+
+    .section-zametki .container .card {
+        width: 180px;
+    }
+
+    .section-zametki .container .card i {
+        font-size: 20px;
+        color: white;
+    }
+
+    .section-zametki .container .card h1 {
+        color: white;
+        font-size: 16px;
+    }
+
+    .section-zametki .container .card p {
+        color: white;
+        font-size: 12px;
+    }
+
+    .section-onas .container {
+        gap: 30px;
+    }
+
+    .section-onas .container img {
+        width: 450px;
+    }
+
+    .section-onas .container .text p {
+        font-size: 16px;
+        font-family: 'Manrope-med';
+    }
+
+    .section-subscription .container .verx h1 {
+        margin: 0;
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .section-subscription .container .niz .leftsite p {
+        width: 90%;
+        font-size: 20px;
+        font-weight: 100;
+    }
+
+    .section-subscription .container p {
+        color: white;
+        font-size: 9px;
+    }
+
+    .section-subscription .container .niz .rightsite .center .one {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .section-subscription .container .niz .rightsite .center .two {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .section-subscription .container .niz .rightsite .center .three {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .section-subscription .container .niz .rightsite .knopka {
+        height: 63px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    .section-title .container .top .first {
+        font-size: 75px;
+
+    }
+
+    .section-title .container .top .first {
+        width: 450px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 550px;
+        height: 270px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 150px;
+        height: 270px;
+    }
+
+    .section-mono .container h1 {
+        font-size: 55px;
+    }
+
+    .section-title {
+        height: 500px;
+    }
+
+    .section-fotochkiall .container .card .foto img {
+        width: 210px;
+        height: 240px;
+    }
+
+    .section-background .container .text h1 {
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+
+    .section-background {
+        background-image: url(../img/6.jpg);
+        height: 550px;
+        margin-bottom: 50px;
+    }
+
+    .section-background .container {
+        width: 80%;
+        text-align: center;
+        height: 500px;
+    }
+
+    .section-background .container .text p {
+        font-size: 21px;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 52px;
+        line-height: 0px;
+    }
+
+    .sectiont-novinki {
+        display: flex;
+        justify-content: center;
+        height: 250px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 200px;
+        height: 300px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 275px;
+        height: 125px;
+    }
+
+    .secttion-women .container .card p {
+        font-size: 14px;
+    }
+
+    .secttion-women .container .card2 p {
+        font-size: 14px;
+    }
+
+    .section-green .container img {
+        height: 595px;
+        width: 350px;
+    }
+
+    .section-green .container {
+        width: 80%;
+        gap: 50px;
+        display: flex;
+    }
+
+    .section-green .container .center {
+        height: 36%;
+    }
+
+    .section-green {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 700px;
+    }
+
+    select {
+        margin-bottom: 10px;
+    }
+
+    .section-green .container .right .center .promo {
+        margin-bottom: 10px;
+    }
+
+    .section-green .container .right .niz .down {
+        font-size: 13px;
+    }
+
+    .section-zametki .container .card h1 {
+        color: white;
+        font-size: 12px;
+    }
+
+    .section-zametki .container {
+        width: 95%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .section-zametki .container .card p {
+        color: white;
+        font-size: 11px;
+    }
+
+    .section-onas {
+        height: 800px;
+    }
+
+    .section-onas .container img {
+        width: 350px;
+    }
+
+    .section-onas .container .text h1 {
+        font-size: 70px;
+    }
+
+    .section-onas .container .text p {
+        font-size: 14px;
+        font-family: 'Manrope-med';
+    }
+
+    .section-subscription .container .verx h1 {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .section-end .container {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section-subscription .container .niz .rightsite .up input {
+        height: 45px;
+    }
+
+    .section-subscription .container .niz .rightsite .knopka {
+        height: 60px;
+    }
+
+    .section-subscription .container .niz .rightsite .center {
+        display: flex;
+        justify-content: space-between;
+        gap: 0px;
+        align-items: center;
+    }
+
+    .section-subscription .container .niz .rightsite .knopka p {
+        font-size: 22px;
+    }
+
+    .section-title .container .top .first {
+        letter-spacing: 5px;
+    }
+
+    .section-title .container .top .first {
+        font-size: 60px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 400px;
+        height: 200px;
+    }
+
+    .section-title .container .bottom .second {
+        /* width: 150px; */
+        height: 200px;
+    }
+
+    .section-title .container .top .second {
+        height: 91%;
+        width: 150px;
+    }
+
+    .section-mono .container h1 {
+        font-size: 45px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 740px;
+    }
+
+    .section-title .container {
+        width: 85%;
+    }
+
+    .section-title .container .top .second {
+        height: 91%;
+        width: 35%;
+    }
+
+    .section-mono .container h1 {
+        font-size: 40px;
+    }
+
+    .section-title .container .top .first {
+        width: 427px;
+    }
+
+    .section-title .container .top .second {
+        height: 91%;
+        width: 20%;
+    }
+
+
+    .section-fotochkiall .container .card .foto img {
+        width: 170px;
+        height: 200px;
+    }
+
+    .section-fotochkiall .container {
+        gap: 20px;
+    }
+
+    .section-fotochkiall .container .card .text h3 {
+        font-size: 14px;
+    }
+
+    .section-background .container .text h1 {
+        font-size: 40px;
+        letter-spacing: 5px;
+    }
+
+    .section-background .container .text p {
+        font-size: 16px;
+    }
+
+    .section-background .container .text {
+        height: 200px;
+    }
+
+    .section-background {
+        background-image: url(../img/6.jpg);
+        height: 450px;
+        margin-bottom: 50px;
+    }
+
+    .section-background .container {
+        width: 80%;
+        text-align: center;
+        height: 400px;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 42px;
+        line-height: 0px;
+    }
+
+    .secttion-women .container {
+        gap: 10px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 150px;
+        height: 250px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 215px;
+        height: 100px;
+    }
+
+    .section-green .container img {
+        height: 520px;
+        width: 300px;
+    }
+
+    .section-green .container {
+        width: 98%;
+        gap: 10px;
+        display: flex;
+    }
+
+    .section-green .container .right .niz .down {
+        font-size: 11px;
+    }
+
+    .section-onas .container img {
+        width: 300px;
+    }
+
+    .section-onas .container {
+        width: 90%;
+    }
+
+    .section-onas .container .text p {
+        font-size: 12px;
+        font-family: 'Manrope-med';
+    }
+
+    .section-subscription .container {
+        width: 90%;
+    }
+
+    .section-subscription .container .niz .leftsite p {
+        width: 90%;
+        font-size: 16px;
+        font-weight: 100;
+    }
+
+    .section-subscription .container .verx h1 {
+        margin: 0;
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .section-subscription .container .niz .rightsite .up input {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .section-subscription .container .niz .rightsite .up h4 {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-family: 'Manrope-med';
+        font-weight: 400;
+        color: white;
+    }
+
+    .section-subscription .container .niz .rightsite .knopka {
+        height: 50px;
+    }
+
+    .section-subscription .container .niz {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+
+    .section-end .container p {
+        color: white;
+        font-size: 12px;
+    }
+
+    .section-end .container .icon {
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section-subscription {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 800px;
+        background-color: black;
+        border-bottom: 2px solid white;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-title .container {
+        width: 93%;
+    }
+
+    .section-title .container .top {
+        width: 100%;
+        display: flex;
+    }
+    .section-title .container .top .first {
+        width: 380px;
+    }
+    .section-title .container .bottom {
+        display: flex;
+        gap: 18px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 350px;
+        height: 200px;
+    }
+
+    .section-title .container .top .first {
+        font-size: 52px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 110px;
+        height: 200px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 350px;
+        height: 200px;
+    }
+
+    .section-mono .container h1 {
+        font-size: 30px;
+    }
+
+    .section-fotochkiall .container .card .foto img {
+        width: 130px;
+        height: 160px;
+    }
+
+    .section-fotochkiall .container .card .text h3 {
+        font-size: 10px;
+    }
+
+    .section-background .container .text h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+    }
+
+    .section-background .container .text p {
+        font-size: 14px;
+    }
+
+    .section-background .container {
+        width: 80%;
+        text-align: center;
+        height: 350px;
+    }
+
+    .section-background .container .text {
+        height: 150px;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 35px;
+        line-height: 0px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 155px;
+        height: 100px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 140px;
+        height: 250px;
+    }
+
+    .section-green .container {
+        width: 98%;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-green {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 1080px;
+    }
+
+    .section-green .container {
+        width: 70%;
+    }
+
+    .section-green .container .niz {
+        height: 280px;
+    }
+
+    .section-green .container .niz p {
+        width: 80%;
+    }
+
+    .section-green .container .right .costume {
+        font-size: 13px;
+        width: 70%;
+    }
+
+    .section-green .container img {
+        height: 420px;
+        width: 350px;
+    }
+
+    .section-zametki .container .card p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .section-onas .container {
+        width: 95%;
+    }
+
+    .section-onas .container img {
+        width: 250px;
+    }
+
+    .section-onas .container .text h1 {
+        font-size: 50px;
+    }
+
+    .section-onas .container .text h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+
+    .section-subscription .container .verx h1 {
+        margin: 0;
+        font-size: 35px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .section-subscription .container p {
+        color: white;
+        font-size: 8px;
+    }
+
+    .section-end .container p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .section-end .container i {
+        outline: 2px solid white;
+        outline-offset: 6px;
+        color: white;
+    }
+
+    .section-end .container .icon {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+    }
+
+    .section-navigation .container p {
+        font-size: 12px;
+    }
+    .section-title .container .top .first {
+        width: 330px;
+    }
+    .section-title .container .bottom .first {
+        width: 300px;
+        height: 170px;
+    }
+
+    .section-title .container {
+        width: 97%;
+    }
+
+    .section-title .container .top .first {
+        font-size: 44px;
+    }
+
+    .section-title .container .top .second {
+        line-height: 8px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 90px;
+        height: 170px;
+    }
+
+    .section-title .container .top .second {
+        line-height: 10px;
+    }
+
+    .section-mono .container h1 {
+        font-size: 24px;
+    }
+
+    .section-fotochkiall .container .card .foto img {
+        width: 110px;
+        height: 130px;
+    }
+
+    .section-background .container .text h1 {
+        font-size: 21px;
+        letter-spacing: 5px;
+    }
+
+    .section-background .container .text p {
+        font-size: 10px;
+    }
+
+    .section-background .container button {
+        width: 230px;
+        height: 50px;
+        transition: 7s;
+    }
+
+    .section-background {
+        height: 400px;
+    }
+
+    .section-background .container {
+        height: 280px;
+    }
+
+    .section-fotochkiall .container {
+        gap: 20px;
+        width: 90%;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 28px;
+        line-height: 0px;
+    }
+
+    .sectiont-novinki .container {
+        width: 90%;
+        height: 100px;
+    }
+
+    .secttion-women .container {
+        gap: 5px;
+        width: 98%;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 120px;
+        height: 230px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 145px;
+        height: 90px;
+    }
+
+    .sectiont-novinki {
+        height: 150px;
+    }
+
+    .secttion-women {
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+
+    .section-green .container img {
+        height: 380px;
+        width: 280px;
+    }
+
+    .section-green .container .right .niz .up {
+        font-size: 12px;
+        width: 70%;
+    }
+
+    .section-zametki .container {
+        width: 95%;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .section-zametki .container .card {
+        width: 150px;
+    }
+
+    .section-onas .container {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-onas .container .text {
+        width: 60%;
+    }
+
+    .section-subscription .container .niz {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .section-subscription .container .niz .leftsite {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .section-subscription {
+        height: 1000px;
+        background-color: black;
+        border-bottom: 2px solid white;
+        align-items: center;
+    }
+
+    .section-subscription .container .niz .rightsite {
+        width: 95%;
+    }
+
+    .section-subscription .container p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .section-end .container {
+        width: 95%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .section-subscription .container .verx h1 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container {
+        width: 99%;
+    }
+
+    header .container {
+        width: 95%;
+    }
+
+    .section-navigation .container {
+        width: 95%;
+        gap: 15px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 250px;
+        height: 150px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 90px;
+        height: 150px;
+    }
+
+    .section-title .container .top .first {
+        font-size: 36px;
+    }
+
+    .section-title .container .top .second {
+        line-height: 8px;
+        font-size: 8px;
+    }
+
+    .section-title .container .top .second {
+        height: 91%;
+        width: 32%;
+    }
+
+    .section-fotochkiall .container {
+        gap: 20px;
+        width: 95%;
+    }
+
+    .secttion-women .container .card p {
+        font-size: 12px;
+    }
+
+    .secttion-women .container .card2 p {
+        font-size: 12px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 115px;
+        height: 225px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 140px;
+        height: 90px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .container {
+        width: 99%;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .section-title .container .top .first {
+        width: 325px;
+    }
+    .section-navigation .container {
+        width: 95%;
+        display: flex;
+        gap: 25px;
+        font-size: 14px;
+        justify-content: center;
+    }
+
+    .section-navigation .container p {
+        font-size: 10px;
+    }
+
+    .section-title .container .bottom .first {
+        width: 250px;
+        height: 150px;
+    }
+
+    .section-title .container .top .first {
+        font-size: 35px;
+    }
+
+    .section-title .container .bottom .second {
+        width: 90px;
+        height: 150px;
+    }
+
+    .section-title .container .top .second {
+        line-height: 9px;
+        font-size: 8px;
+    }
+
+    .section-fotochkiall .container .card .foto img {
+        width: 100px;
+        height: 115px;
+    }
+
+    .section-fotochkiall .container .card .text h3 {
+        font-size: 8px;
+    }
+
+    .section-mono .container {
+        width: 90%;
+    }
+
+    .sectiont-novinki .container h1 {
+        font-size: 26px;
+        line-height: 0px;
+    }
+
+    .secttion-women .container .card2 p {
+        font-size: 12px;
+    }
+
+    .secttion-women .container .card p {
+        font-size: 12px;
+    }
+
+    .secttion-women .container .card .foto img {
+        width: 110px;
+        height: 225px;
+    }
+
+    .secttion-women .container .card2 .foto1 img {
+        width: 135px;
+        height: 90px;
+    }
+
+    .section-green .container .right .center .promo p {
+        font-size: 14px;
+    }
+
+    .section-subscription .container .verx h1 {
+        font-size: 26px;
+    }
+
+    .section-subscription .container .niz .rightsite .down {
+        display: flex;
+        margin-bottom: 15px;
+    }
+}
